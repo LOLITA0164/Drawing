@@ -7,7 +7,7 @@
 //
 
 #import "DrawingCtrl.h"
-#import "DrawingBoardCtrl.h"
+#import "ApplyTableCtrl.h"
 #import "UIBezierPathView.h"        //
 #import "CoreGraphicsView.h"        //
 
@@ -38,21 +38,21 @@
     
     self.title = @"贝塞尔曲线/CGContextRef";
     
-    UIButton *itemBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 40)];
-    [itemBtn setTitle:@"画板" forState:UIControlStateNormal];
-    [itemBtn setTitleColor:[UIColor darkTextColor] forState:UIControlStateNormal];
-    [itemBtn addTarget:self action:@selector(itemBtnAction) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:itemBtn];
-    self.navigationItem.rightBarButtonItem = item;
+    UIButton *rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 40)];
+    [rightBtn setTitle:@"应用" forState:UIControlStateNormal];
+    [rightBtn setTitleColor:[UIColor darkTextColor] forState:UIControlStateNormal];
+    [rightBtn addTarget:self action:@selector(rightBtnAction) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
+    self.navigationItem.rightBarButtonItem = rightItem;
     
+
 }
 
 
--(void)itemBtnAction{
-    DrawingBoardCtrl *ctrl = [DrawingBoardCtrl new];
+-(void)rightBtnAction{
+    ApplyTableCtrl *ctrl = [ApplyTableCtrl new];
     [self.navigationController pushViewController:ctrl animated:YES];
 }
-
 
 
 

@@ -47,7 +47,7 @@
 
 -(CGFloat)lineWidth{
     if (_lineWidth==0) {
-        _lineWidth = 1;
+        _lineWidth = 3;
     }
     return _lineWidth;
 }
@@ -118,9 +118,11 @@
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
     
     UITouch *touch = [touches anyObject];
-    //获取触摸位置,贝塞尔的终点
+    //获取触摸位置,线条其他的点
     CGPoint point = [touch locationInView:self];
     [self.bezierPath addLineToPoint:point];
+    
+    NSLog(@"移动到点：%@",NSStringFromCGPoint(point));
     
     [self setNeedsDisplay];
 }

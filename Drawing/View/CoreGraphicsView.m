@@ -80,8 +80,8 @@
     
     
     /*****************************直线*****************************/
-    CGContextMoveToPoint(ctx, 10, 120);                                 //起点
-    CGContextAddLineToPoint(ctx, kScreenWidth-10, 120);                 //其他点
+    CGContextMoveToPoint(ctx, 10, 100);                                 //起点
+    CGContextAddLineToPoint(ctx, kScreenWidth-10, 100);                 //其他点
     //其他设置
     CGContextSetRGBStrokeColor(ctx, 0, 1, 0, 1);                        //RGB类型的颜色
     CGContextSetLineCap(ctx, kCGLineCapSquare);                         //起点和重点
@@ -92,9 +92,9 @@
     
     
     /*****************************使用直线绘制其他图形（可以不规则）*****************************/
-    CGContextMoveToPoint(ctx, 20, 200);                                     //设置直线
-    CGContextAddLineToPoint(ctx, 60, 150);
-    CGContextAddLineToPoint(ctx, 80, 200);
+    CGContextMoveToPoint(ctx, 20, 150);                                     //设置直线
+    CGContextAddLineToPoint(ctx, 60, 110);
+    CGContextAddLineToPoint(ctx, 100, 180);
     CGContextSetLineWidth(ctx, 5);                                          //线条的宽度
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineJoin(ctx, kCGLineJoinRound);
@@ -114,7 +114,7 @@
     
     /*****************************绘制图片*****************************/
     UIImage *img = [UIImage imageNamed:@"QQ"];
-    [img drawAtPoint:CGPointMake( 150, 145)];                                         //绘制到指定的点，图片size
+    [img drawAtPoint:CGPointMake( 150, 125)];                                         //绘制到指定的点，图片size
 //    [img drawInRect:CGRectMake(120, 140, img.size.width, img.size.height)];             //指定位置大小
 //    [img drawAsPatternInRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight/2.0)];      //多个平铺
     
@@ -132,7 +132,7 @@
                           NSParagraphStyleAttributeName:style};
     //绘制
     CGSize size = [str sizeWithAttributes:dic];
-    CGRect strRect = CGRectMake((kScreenWidth-size.width)/2.0, 220, size.width, size.height);
+    CGRect strRect = CGRectMake((kScreenWidth-size.width)/2.0, 200, size.width, size.height);
     [str drawWithRect:strRect options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil];
     
     
@@ -156,7 +156,7 @@
     CGContextSetLineWidth(ctx, 2);
     CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
     CGContextSetFillColorWithColor(ctx, [UIColor brownColor].CGColor);
-    CGContextAddEllipseInRect(ctx, CGRectMake(250, 150, 50, 50));
+    CGContextAddEllipseInRect(ctx, CGRectMake(250, 130, 50, 50));
     CGContextDrawPath(ctx, kCGPathFillStroke);
     
     

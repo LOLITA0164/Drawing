@@ -97,6 +97,8 @@
         path.lineJoinStyle  = kCGLineJoinRound;         //连接处形状
         [RandColor set];
         [path stroke];
+        [RandColor setFill];
+        [path fill];
     }
     
     
@@ -122,7 +124,7 @@
         [path addLineToPoint:CGPointMake(kScreenWidth-10, 150)];
         UIBezierPath * pathNew = [UIBezierPath bezierPathWithCGPath:path.CGPath];
         pathNew.lineWidth = 5;
-        [RandColor set];
+        [RandColor setStroke];
         [pathNew stroke];
     }
     
@@ -165,11 +167,11 @@
         UIBezierPath *path = [UIBezierPath bezierPath];
         path.lineWidth = 5;
         DLog(@"---%@",path.empty?@"YES":@"NO");
-        [path moveToPoint:CGPointMake(220, 250)];
+        [path moveToPoint:CGPointMake(220, 230)];
         // 参数一: 曲线的终点位置
         // 参数二: 第一控制点
         // 参数三: 第二控制点
-        [path addCurveToPoint:CGPointMake(300, 200) controlPoint1:CGPointMake(240, 100) controlPoint2:CGPointMake(250, 300)];
+        [path addCurveToPoint:CGPointMake(300, 180) controlPoint1:CGPointMake(240, 100) controlPoint2:CGPointMake(250, 300)];
         [path closePath];
         [RandColor setStroke];
         [path stroke];
@@ -189,7 +191,7 @@
         
         
         //新增一个路径
-        UIBezierPath *linePath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(210, 180, 100, 78)];
+        UIBezierPath *linePath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(210, 160, 100, 78)];
         [path appendPath:linePath];
         [path stroke];
         

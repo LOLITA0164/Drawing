@@ -7,34 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D38A3DFC1EFA719800DF682E /* DrawingBoardCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DFA1EFA719800DF682E /* DrawingBoardCtrl.m */; };
-		D38A3DFD1EFA719800DF682E /* DrawingBoardCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38A3DFB1EFA719800DF682E /* DrawingBoardCtrl.xib */; };
+		D36358F31EFB5D5500F97CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D36358F21EFB5D5500F97CC0 /* AppDelegate.m */; };
+		D36358FB1EFB623E00F97CC0 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D36358FA1EFB623E00F97CC0 /* CustomAlertView.m */; };
+		D36359011EFB8D2800F97CC0 /* ApplyTableCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D36358FF1EFB8D2800F97CC0 /* ApplyTableCtrl.m */; };
+		D36359021EFB8D2800F97CC0 /* ApplyTableCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36359001EFB8D2800F97CC0 /* ApplyTableCtrl.xib */; };
+		D36359051EFB8D8100F97CC0 /* DrawingCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D36359041EFB8D8100F97CC0 /* DrawingCtrl.m */; };
+		D363590D1EFB8E0500F97CC0 /* AlertCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D36359081EFB8E0500F97CC0 /* AlertCtrl.m */; };
+		D363590E1EFB8E0500F97CC0 /* AlertCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36359091EFB8E0500F97CC0 /* AlertCtrl.xib */; };
+		D363590F1EFB8E0500F97CC0 /* DrawingBoardCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D363590B1EFB8E0500F97CC0 /* DrawingBoardCtrl.m */; };
+		D36359101EFB8E0500F97CC0 /* DrawingBoardCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D363590C1EFB8E0500F97CC0 /* DrawingBoardCtrl.xib */; };
 		D38A3E001EFA72E400DF682E /* DrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A3DFF1EFA72E400DF682E /* DrawingBoardView.m */; };
 		D38BF5931EF8FBCA009F140B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5921EF8FBCA009F140B /* main.m */; };
-		D38BF5961EF8FBCA009F140B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5951EF8FBCA009F140B /* AppDelegate.m */; };
 		D38BF59E1EF8FBCA009F140B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38BF59D1EF8FBCA009F140B /* Assets.xcassets */; };
 		D38BF5A11EF8FBCA009F140B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BF59F1EF8FBCA009F140B /* LaunchScreen.storyboard */; };
-		D38BF5B61EF8FC9F009F140B /* DrawingCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5B51EF8FC9F009F140B /* DrawingCtrl.m */; };
 		D38BF5BA1EF8FCC4009F140B /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5B81EF8FCC4009F140B /* UIView+AdjustFrame.m */; };
 		D38BF5BE1EF8FE5E009F140B /* UIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5BD1EF8FE5E009F140B /* UIBezierPathView.m */; };
 		D38BF5C11EF902CD009F140B /* CoreGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38BF5C01EF902CD009F140B /* CoreGraphicsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D38A3DF91EFA719800DF682E /* DrawingBoardCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardCtrl.h; sourceTree = "<group>"; };
-		D38A3DFA1EFA719800DF682E /* DrawingBoardCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardCtrl.m; sourceTree = "<group>"; };
-		D38A3DFB1EFA719800DF682E /* DrawingBoardCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingBoardCtrl.xib; sourceTree = "<group>"; };
+		D36358F11EFB5D5500F97CC0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D36358F21EFB5D5500F97CC0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D36358F91EFB623E00F97CC0 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		D36358FA1EFB623E00F97CC0 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		D36358FE1EFB8D2800F97CC0 /* ApplyTableCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyTableCtrl.h; sourceTree = "<group>"; };
+		D36358FF1EFB8D2800F97CC0 /* ApplyTableCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyTableCtrl.m; sourceTree = "<group>"; };
+		D36359001EFB8D2800F97CC0 /* ApplyTableCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ApplyTableCtrl.xib; path = Controller/ApplyTableCtrl.xib; sourceTree = "<group>"; };
+		D36359031EFB8D8100F97CC0 /* DrawingCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingCtrl.h; sourceTree = "<group>"; };
+		D36359041EFB8D8100F97CC0 /* DrawingCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingCtrl.m; sourceTree = "<group>"; };
+		D36359071EFB8E0500F97CC0 /* AlertCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertCtrl.h; sourceTree = "<group>"; };
+		D36359081EFB8E0500F97CC0 /* AlertCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertCtrl.m; sourceTree = "<group>"; };
+		D36359091EFB8E0500F97CC0 /* AlertCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertCtrl.xib; sourceTree = "<group>"; };
+		D363590A1EFB8E0500F97CC0 /* DrawingBoardCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardCtrl.h; sourceTree = "<group>"; };
+		D363590B1EFB8E0500F97CC0 /* DrawingBoardCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardCtrl.m; sourceTree = "<group>"; };
+		D363590C1EFB8E0500F97CC0 /* DrawingBoardCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingBoardCtrl.xib; sourceTree = "<group>"; };
 		D38A3DFE1EFA72E400DF682E /* DrawingBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardView.h; sourceTree = "<group>"; };
 		D38A3DFF1EFA72E400DF682E /* DrawingBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardView.m; sourceTree = "<group>"; };
 		D38BF58E1EF8FBCA009F140B /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38BF5921EF8FBCA009F140B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D38BF5941EF8FBCA009F140B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		D38BF5951EF8FBCA009F140B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		D38BF59D1EF8FBCA009F140B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38BF5A01EF8FBCA009F140B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38BF5A21EF8FBCA009F140B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D38BF5B41EF8FC9F009F140B /* DrawingCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingCtrl.h; sourceTree = "<group>"; };
-		D38BF5B51EF8FC9F009F140B /* DrawingCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingCtrl.m; sourceTree = "<group>"; };
 		D38BF5B71EF8FCC4009F140B /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
 		D38BF5B81EF8FCC4009F140B /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
 		D38BF5B91EF8FCC4009F140B /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
@@ -56,6 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D36359061EFB8E0500F97CC0 /* 应用 */ = {
+			isa = PBXGroup;
+			children = (
+				D36359071EFB8E0500F97CC0 /* AlertCtrl.h */,
+				D36359081EFB8E0500F97CC0 /* AlertCtrl.m */,
+				D36359091EFB8E0500F97CC0 /* AlertCtrl.xib */,
+				D363590A1EFB8E0500F97CC0 /* DrawingBoardCtrl.h */,
+				D363590B1EFB8E0500F97CC0 /* DrawingBoardCtrl.m */,
+				D363590C1EFB8E0500F97CC0 /* DrawingBoardCtrl.xib */,
+			);
+			path = "应用";
+			sourceTree = "<group>";
+		};
 		D38BF5851EF8FBCA009F140B = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				D38BF5B01EF8FC50009F140B /* Controller */,
-				D38BF5B11EF8FC50009F140B /* Module */,
 				D38BF5B31EF8FC50009F140B /* View */,
 				D38BF5B21EF8FC50009F140B /* Other */,
 				D38BF59D1EF8FBCA009F140B /* Assets.xcassets */,
 				D38BF59F1EF8FBCA009F140B /* LaunchScreen.storyboard */,
+				D36359001EFB8D2800F97CC0 /* ApplyTableCtrl.xib */,
 				D38BF5A21EF8FBCA009F140B /* Info.plist */,
 				D38BF5911EF8FBCA009F140B /* Supporting Files */,
 			);
@@ -98,30 +124,23 @@
 		D38BF5B01EF8FC50009F140B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D38BF5B41EF8FC9F009F140B /* DrawingCtrl.h */,
-				D38BF5B51EF8FC9F009F140B /* DrawingCtrl.m */,
-				D38A3DF91EFA719800DF682E /* DrawingBoardCtrl.h */,
-				D38A3DFA1EFA719800DF682E /* DrawingBoardCtrl.m */,
-				D38A3DFB1EFA719800DF682E /* DrawingBoardCtrl.xib */,
+				D36359061EFB8E0500F97CC0 /* 应用 */,
+				D36359031EFB8D8100F97CC0 /* DrawingCtrl.h */,
+				D36359041EFB8D8100F97CC0 /* DrawingCtrl.m */,
+				D36358FE1EFB8D2800F97CC0 /* ApplyTableCtrl.h */,
+				D36358FF1EFB8D2800F97CC0 /* ApplyTableCtrl.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D38BF5B11EF8FC50009F140B /* Module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Module;
 			sourceTree = "<group>";
 		};
 		D38BF5B21EF8FC50009F140B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				D36358F11EFB5D5500F97CC0 /* AppDelegate.h */,
+				D36358F21EFB5D5500F97CC0 /* AppDelegate.m */,
 				D38BF5B71EF8FCC4009F140B /* UIView+AdjustFrame.h */,
 				D38BF5B81EF8FCC4009F140B /* UIView+AdjustFrame.m */,
 				D38BF5B91EF8FCC4009F140B /* MyMacro.h */,
-				D38BF5941EF8FBCA009F140B /* AppDelegate.h */,
-				D38BF5951EF8FBCA009F140B /* AppDelegate.m */,
 				D38BF5BB1EF8FD02009F140B /* PrefixHeader.pch */,
 			);
 			path = Other;
@@ -136,6 +155,8 @@
 				D38BF5C01EF902CD009F140B /* CoreGraphicsView.m */,
 				D38A3DFE1EFA72E400DF682E /* DrawingBoardView.h */,
 				D38A3DFF1EFA72E400DF682E /* DrawingBoardView.m */,
+				D36358F91EFB623E00F97CC0 /* CustomAlertView.h */,
+				D36358FA1EFB623E00F97CC0 /* CustomAlertView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38BF5A11EF8FBCA009F140B /* LaunchScreen.storyboard in Resources */,
-				D38A3DFD1EFA719800DF682E /* DrawingBoardCtrl.xib in Resources */,
 				D38BF59E1EF8FBCA009F140B /* Assets.xcassets in Resources */,
+				D36359021EFB8D2800F97CC0 /* ApplyTableCtrl.xib in Resources */,
+				D363590E1EFB8E0500F97CC0 /* AlertCtrl.xib in Resources */,
+				D36359101EFB8E0500F97CC0 /* DrawingBoardCtrl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,14 +235,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38BF5961EF8FBCA009F140B /* AppDelegate.m in Sources */,
 				D38BF5BA1EF8FCC4009F140B /* UIView+AdjustFrame.m in Sources */,
 				D38BF5C11EF902CD009F140B /* CoreGraphicsView.m in Sources */,
-				D38A3DFC1EFA719800DF682E /* DrawingBoardCtrl.m in Sources */,
+				D363590F1EFB8E0500F97CC0 /* DrawingBoardCtrl.m in Sources */,
 				D38A3E001EFA72E400DF682E /* DrawingBoardView.m in Sources */,
+				D36358F31EFB5D5500F97CC0 /* AppDelegate.m in Sources */,
 				D38BF5931EF8FBCA009F140B /* main.m in Sources */,
 				D38BF5BE1EF8FE5E009F140B /* UIBezierPathView.m in Sources */,
-				D38BF5B61EF8FC9F009F140B /* DrawingCtrl.m in Sources */,
+				D36359011EFB8D2800F97CC0 /* ApplyTableCtrl.m in Sources */,
+				D363590D1EFB8E0500F97CC0 /* AlertCtrl.m in Sources */,
+				D36358FB1EFB623E00F97CC0 /* CustomAlertView.m in Sources */,
+				D36359051EFB8D8100F97CC0 /* DrawingCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
