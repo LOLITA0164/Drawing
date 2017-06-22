@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DrawingCtrl.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:kScreenBounds];
+    
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *ctrl = [[UINavigationController alloc] initWithRootViewController: [DrawingCtrl new]];
+    
+    self.window.rootViewController = ctrl;
+    
     return YES;
 }
 

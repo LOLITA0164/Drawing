@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CoreGraphicsView.h
 //  Drawing
 //
 //  Created by LOLITA on 17/6/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CoreGraphicsView : UIView
 
 @end
-
